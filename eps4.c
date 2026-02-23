@@ -33,7 +33,7 @@ int main(){
   printf("masukan karakter_1 : ");
   scanf("%c", &y);
   printf("masukan karakter_2 : ");
-  scanf(" %c", &b);
+  scanf(" %c", &b); // harus kasih spasi " %c" seperti itu
   printf("karakter_ 1 adalah %c\ndan \nkarakter_2 adalah %c", y, b);
 
   return 0;
